@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Geist";
+  src: url(../src/assets/font/Geist/geist-latin-200-normal.woff);
+}
+body,button,input{
+  font-family:"Geist";
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+  transition: all 0.1s ease-in-out; 
+}
+
+.animate-marquee:hover {
+  scale: 1.02; 
+}

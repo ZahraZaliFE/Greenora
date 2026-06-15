@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenora — Professional Garden Design & Maintenance Services</title>
+    <meta name="title" content="Greenora — Professional Garden Design & Maintenance Services">
+    <meta name="description"
+        content="Transform your outdoor space with Greenora. We offer expert garden design, landscape maintenance, and premium plant care services to create your dream sanctuary.">
+    <meta name="keywords"
+        content="garden services, landscape design, garden maintenance, professional gardeners, backyard renovation, plant care, garden landscaping, Greenora">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="shortcut icon" href="src/assets/icons/favico.svg" type="image/x-icon">
+</head>
+
+<body class="flex flex-col">
+    <div
+        class="relative w-full h-screen overflow-hidden bg-[url(../src/assets/img/bgimgHeader.jpg)] bg-cover bg-center bg-no-repeat bg-fixed">
+        <div
+            class="absolute inset-0 before:absolute before:inset-0 before:bg-gradient-to-b before:from-black/60 before:via-black/30 before:to-black/70 before:content-['']">
+        </div>
+        <header
+            class="fixed z-50 transition-all duration-500 bg-emerald-900/20 shadow-lg
+            left-1/2 -translate-x-1/2 w-[92%] max-w-[420px] top-4 rounded-lg
+            sm:w-[85%] sm:max-w-[560px]
+            md:static md:translate-x-0 md:left-0 md:top-0 md:w-full md:max-w-none md:rounded-none md:m-0">
+
+            <div class="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 md:px-10">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="125" height="26" fill="none">
+                        <path fill="#fff" fill-rule="evenodd"
+                            d="M18.438 1a5.172 5.172 0 0 1 5.074 4.104c.07.335.105.681.105 1.036V19.3c0 2.838-2.318 5.14-5.179 5.14H5.18a5.201 5.201 0 0 1-1.621-.258C1.492 23.507 0 21.576 0 19.3V6.14C0 3.301 2.319 1 5.18 1h13.258Zm-2.1 1.645h2.1a3.516 3.516 0 0 1 3.459 2.832 6.57 6.57 0 0 1-3.34-.504c-1.066-.454-1.773-1.294-2.22-2.328Zm-4.918 0h3.148c.523 1.562 1.525 3.07 3.336 3.84a8.203 8.203 0 0 0 4.056.64v1.682c-1.66.52-3.313.732-4.636.348-.657-.191-1.41-.698-2.222-1.495-.8-.787-1.6-1.798-2.353-2.904a35.74 35.74 0 0 1-1.33-2.111Zm-1.904 0H7.323c.1 1.861-.342 4.135-1.985 6.438-1.09 1.526-2.377 2.365-3.68 2.74v3.279c.785-.473 1.71-1.12 2.792-1.992 2.557-2.063 4.571-2.883 6.099-3.034 1.519-.149 2.598.374 3.074 1.035.499.694.781 1.623.887 2.603a9.776 9.776 0 0 1-.21 3.198c-.501 2.183-1.774 4.456-4.066 5.681l-.378.201h2.576c1.007-1.269 1.814-2.53 2.103-3.519.326-1.115.46-2.298.585-3.404.046-.398.09-.785.14-1.156.09-.642.212-1.323.475-1.813.14-.26.361-.55.718-.716.375-.176.765-.154 1.108-.041.96.318 2.236.383 4.4-.154v-1.468c-1.669.467-3.488.68-5.102.21-1.042-.302-2.03-1.027-2.923-1.904-.904-.888-1.77-1.993-2.56-3.15a39.176 39.176 0 0 1-1.86-3.034ZM21.96 13.682c-2.06.468-3.543.449-4.796.064-.093.215-.179.597-.261 1.193-.041.296-.08.633-.12.996-.129 1.135-.287 2.534-.657 3.799-.283.97-.896 2.034-1.625 3.06h1.667c.308-.759.591-1.482.814-2.09.239-.652.388-1.122.437-1.36.09-.454.265-.943.674-1.289.425-.36.947-.437 1.436-.413.482.025 1.047.154 1.684.335.231.066.48.14.747.224v-4.519Zm-.054 6.23c-.432-.14-.813-.258-1.15-.354-.616-.175-1.029-.259-1.31-.273-.183-.01-.257.013-.278.023-.012.014-.071.093-.124.358-.076.378-.27.958-.505 1.6-.169.462-.37.982-.587 1.528h.486a3.516 3.516 0 0 0 3.468-2.882ZM6.28 22.794c1.085-.555 2.18-1.121 3.168-1.649 1.747-.934 2.805-2.721 3.236-4.599a8.154 8.154 0 0 0 .178-2.656c-.088-.812-.31-1.437-.588-1.823-.042-.059-.465-.461-1.562-.354-1.088.107-2.803.726-5.217 2.673-1.512 1.219-2.777 2.054-3.838 2.606v1.855c.262-.238.557-.436.83-.605.278-.173.581-.342.879-.508l.074-.041c.278-.155.554-.308.828-.471.6-.357 1.139-.73 1.553-1.162.718-.75 1.754-1.645 2.729-2.256.48-.302 1-.569 1.489-.691.46-.115 1.172-.162 1.668.402.473.536.669 1.34.325 2.383-.327.991-1.148 2.243-2.735 3.87-1.648 1.69-3.295 2.536-4.684 2.806a5.99 5.99 0 0 1-.461.07c.325.098.67.15 1.027.15h1.1ZM1.657 10.082c.803-.33 1.603-.934 2.328-1.95 1.431-2.005 1.777-3.95 1.679-5.487h-.485c-1.945 0-3.522 1.565-3.522 3.495v3.942Zm17.51 9.226a.023.023 0 0 0-.006.003h.002l.001-.002h.002Zm-9.732-4.114c-.834.523-1.767 1.324-2.412 1.999-.57.594-1.26 1.057-1.903 1.44-.296.175-.593.34-.867.493l-.076.043c-.302.167-.572.319-.811.468-.518.32-.734.536-.802.674a.136.136 0 0 0-.016.097c.009.05.045.163.187.35l.013.02.013.018c0 .001.02.027.079.063.061.037.156.079.29.112.271.066.665.085 1.165-.012.994-.193 2.35-.837 3.81-2.335 1.521-1.56 2.14-2.596 2.351-3.237.127-.383.1-.59.06-.695l-.072.016c-.24.06-.585.22-1.009.486Zm1.17-.51h-.013.013Z"
+                            clip-rule="evenodd" />
+                        <path fill="#fff"
+                            d="M38.866 21.33c-1.144 0-2.207-.205-3.19-.616a7.982 7.982 0 0 1-2.552-1.716 7.86 7.86 0 0 1-1.716-2.596c-.41-1.012-.616-2.12-.616-3.322 0-1.173.198-2.251.594-3.234a8.185 8.185 0 0 1 1.65-2.618 7.57 7.57 0 0 1 2.53-1.738c.968-.41 2.024-.616 3.168-.616 1.364 0 2.567.257 3.608.77a7.45 7.45 0 0 1 2.64 2.046 8.34 8.34 0 0 1 1.54 2.948h-2.816a4.88 4.88 0 0 0-.968-1.826 4.505 4.505 0 0 0-1.694-1.276c-.675-.323-1.467-.484-2.376-.484-1.041 0-1.973.25-2.794.748-.807.499-1.437 1.203-1.892 2.112-.455.895-.682 1.965-.682 3.212 0 1.159.227 2.2.682 3.124a5.42 5.42 0 0 0 1.936 2.2c.85.543 1.863.814 3.036.814.968 0 1.811-.183 2.53-.55a4.762 4.762 0 0 0 1.782-1.584c.455-.69.755-1.481.902-2.376h-5.456v-1.936h8.008c.03 1.261-.14 2.413-.506 3.454a7.895 7.895 0 0 1-1.584 2.706 6.937 6.937 0 0 1-2.508 1.76c-.968.396-2.053.594-3.256.594Zm12.207-6.292V21h-2.222V9.34h2.068v2.464a4.587 4.587 0 0 1 1.826-1.914 5.276 5.276 0 0 1 2.662-.704v2.31c-.836-.044-1.584.051-2.244.286a3.147 3.147 0 0 0-1.54 1.166c-.366.528-.55 1.225-.55 2.09ZM61.7 21.22c-1.13 0-2.12-.25-2.97-.748-.836-.513-1.489-1.232-1.958-2.156-.47-.924-.704-1.995-.704-3.212 0-1.159.242-2.185.726-3.08a5.493 5.493 0 0 1 1.98-2.112c.836-.528 1.79-.792 2.86-.792.88 0 1.664.169 2.354.506a4.852 4.852 0 0 1 1.782 1.386 5.352 5.352 0 0 1 1.078 2.09c.22.792.278 1.665.176 2.618h-9.658v-1.474h7.304c-.044-1.085-.345-1.929-.902-2.53-.543-.616-1.269-.924-2.178-.924-.66 0-1.24.176-1.738.528-.484.337-.866.829-1.144 1.474-.264.63-.396 1.4-.396 2.31 0 .91.132 1.694.396 2.354.264.645.645 1.144 1.144 1.496.498.352 1.1.528 1.804.528.836 0 1.525-.213 2.068-.638.557-.425.924-1.02 1.1-1.782h2.2c-.279 1.29-.895 2.31-1.848 3.058-.939.733-2.098 1.1-3.476 1.1Zm12.047 0c-1.129 0-2.119-.25-2.97-.748-.836-.513-1.488-1.232-1.958-2.156-.469-.924-.704-1.995-.704-3.212 0-1.159.242-2.185.726-3.08a5.493 5.493 0 0 1 1.98-2.112c.836-.528 1.79-.792 2.86-.792.88 0 1.665.169 2.354.506a4.852 4.852 0 0 1 1.782 1.386 5.352 5.352 0 0 1 1.078 2.09c.22.792.279 1.665.176 2.618h-9.658v-1.474h7.304c-.044-1.085-.344-1.929-.902-2.53-.542-.616-1.268-.924-2.178-.924-.66 0-1.239.176-1.738.528-.484.337-.865.829-1.144 1.474-.264.63-.396 1.4-.396 2.31 0 .91.132 1.694.396 2.354.264.645.646 1.144 1.144 1.496.499.352 1.1.528 1.804.528.836 0 1.526-.213 2.068-.638.558-.425.924-1.02 1.1-1.782h2.2c-.278 1.29-.894 2.31-1.848 3.058-.938.733-2.097 1.1-3.476 1.1Zm9.689-6.798V21h-2.222V9.34h2.068v1.936a4.752 4.752 0 0 1 1.54-1.562c.645-.396 1.371-.594 2.178-.594 1.202 0 2.163.374 2.882 1.122.733.748 1.1 1.819 1.1 3.212V21H88.76v-6.798c0-.997-.213-1.767-.638-2.31-.426-.543-1.056-.814-1.892-.814-.514 0-.983.14-1.408.418-.426.264-.763.645-1.012 1.144-.25.499-.374 1.093-.374 1.782Zm15.16 6.798a5.89 5.89 0 0 1-2.287-.44 5.605 5.605 0 0 1-1.805-1.276 6.26 6.26 0 0 1-1.21-1.936 6.696 6.696 0 0 1-.418-2.398c0-.865.14-1.665.418-2.398a5.991 5.991 0 0 1 1.21-1.914 5.191 5.191 0 0 1 1.805-1.276 5.645 5.645 0 0 1 2.287-.462c.837 0 1.599.154 2.288.462a4.929 4.929 0 0 1 1.804 1.276c.514.543.91 1.18 1.188 1.914.294.733.44 1.533.44 2.398 0 .865-.146 1.665-.44 2.398a5.92 5.92 0 0 1-1.188 1.936c-.498.543-1.1.968-1.804 1.276-.689.293-1.451.44-2.287.44Zm0-1.958c.646 0 1.225-.161 1.738-.484.528-.337.939-.814 1.232-1.43.308-.616.462-1.342.462-2.178 0-.85-.154-1.577-.462-2.178-.293-.616-.704-1.085-1.232-1.408a3.194 3.194 0 0 0-1.737-.484c-.631 0-1.21.161-1.739.484-.513.323-.924.792-1.231 1.408-.294.601-.44 1.327-.44 2.178 0 .836.146 1.562.44 2.178.307.616.718 1.093 1.231 1.43a3.27 3.27 0 0 0 1.739.484Zm9.988-4.224V21h-2.222V9.34h2.068v2.464a4.582 4.582 0 0 1 1.826-1.914 5.273 5.273 0 0 1 2.662-.704v2.31c-.836-.044-1.584.051-2.244.286a3.143 3.143 0 0 0-1.54 1.166c-.367.528-.55 1.225-.55 2.09ZM121.517 21v-1.804a3.86 3.86 0 0 1-1.496 1.496c-.631.352-1.379.528-2.244.528-1.203 0-2.171-.315-2.904-.946-.733-.645-1.1-1.503-1.1-2.574 0-1.144.447-2.01 1.342-2.596.909-.587 2.229-.88 3.96-.88a15.5 15.5 0 0 1 2.178.132v-.858c0-.821-.213-1.46-.638-1.914-.425-.47-1.027-.704-1.804-.704-.807 0-1.452.235-1.936.704-.469.455-.719 1.085-.748 1.892h-2.024c.029-.88.242-1.643.638-2.288a4.116 4.116 0 0 1 1.65-1.518c.704-.367 1.511-.55 2.42-.55 1.437 0 2.552.389 3.344 1.166.807.763 1.21 1.84 1.21 3.234V21h-1.848Zm-5.632-3.366c0 .601.213 1.085.638 1.452.425.367.99.55 1.694.55.939 0 1.679-.264 2.222-.792.543-.543.814-1.261.814-2.156v-.946a19.791 19.791 0 0 0-1.122-.088 9.994 9.994 0 0 0-.924-.044c-1.115 0-1.951.169-2.508.506-.543.323-.814.829-.814 1.518Z" />
+                    </svg>
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex gap-4 md:gap-8 text-white/90 font-bold ">
+                        <li>
+                            <a href="#about" class="focus:text-gray-400 transition-colors">About</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="hover:text-gray-400 transition-colors">Services
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#works" class="hover:text-gray-400 transition-colors">Works</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="hover:text-gray-400 transition-colors">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button id="menu-toggle" type="button"
+                    class="inline-flex items-center justify-center  p-2 text-white transition hover:bg-white/10 md:hidden"
+                    aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu">
+                    <svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg id="menu-icon-close" xmlns="http://www.w3.org/2000/svg" class="hidden h-8 w-8" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <nav id="mobile-menu"
+                class="hidden border-t border-white/10 bg-emerald-950/95 px-4 py-4 backdrop-blur md:hidden">
+                <ul class="flex flex-col gap-4 text-white/90 font-bold">
+                    <li>
+                        <a href="#about" class="block rounded-lg px-3 py-2 hover:bg-white/10">About</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="block rounded-lg px-3 py-2 hover:bg-white/10">Services</a>
+                    </li>
+                    <li>
+                        <a href="#works" class="block rounded-lg px-3 py-2 hover:bg-white/10">Works</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="block rounded-lg px-3 py-2 hover:bg-white/10">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div
+            class="justify-center relative z-10 w-full max-w-4xl mx-auto mt-24 sm:mt-46 md:mt-52 flex flex-col items-start sm:justify-start  h-[calc(100%-80px)] py-12 sm:py-20 md:py-40 px-4 sm:px-6 md:px-10">
+            <div class="flex flex-col gap-2 lg:flex-row items-start">
+                <img class="w-24 sm:w-28 h-auto" src="src/assets/icons/five-star-rating-icon.svg" alt="">
+                <p class="text-white text-sm sm:text-base lg:text-lg font-bold mt-2 sm:mt-0">100+ 5 Star Rating</p>
+            </div>
+
+            <div class="sm:mt-8 sm:mb-10 text-white">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-[55px] leading-tight sm:leading-snug md:leading-12 font-extrabold drop-shadow-2xl">
+                    Transform Your Outdoor Living
+                </h1>
+                <p class="text-sm sm:text-base md:text-base mt-4 sm:mt-6 max-w-lg drop-shadow-md font-bold tracking-wide sm:tracking-widest lg:text-lg">
+                    Premium garden design and maintenance tailored to your lifestyle. Build a space that lasts a
+                    lifetime.
+                </p>
+                <button>
+                    <a href="#"
+                        class="group relative mt-6 sm:mt-10 inline-flex items-center justify-center px-6 sm:px-10 py-3 sm:py-4 bg-green-800 text-white rounded-full font-bold text-sm sm:text-base lg:text-lg hover:bg-emerald-700 transition-all duration-300 shadow-xl overflow-hidden">
+                        <span
+                            class="inline-block transition-all duration-300 ease-in-out group-hover:-translate-y-full group-hover:opacity-0">
+                            Work with us
+                        </span>
+
+                        <span
+                            class="absolute inset-0 flex items-center justify-center transition-all duration-300 ease-in-out translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                            Work with us
+                        </span>
+                    </a>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <main>
+
+        <section class="container m-auto pt-12 sm:pt-16 md:pt-26 max-w-7xl">
+            <div
+                class="relative z-10 mx-auto mt-8 sm:mt-12 md:mt-24 flex flex-col items-start justify-center h-[calc(100%-80px)] px-4 sm:px-6 md:px-10">
+                <div class="flex gap-2">
+                    <p id="about" class="text-sm sm:text-base font-bold">(about us)</p>
+                </div>
+
+                <div class="mt-4 sm:mt-6 md:mt-2">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] leading-tight sm:leading-snug md:leading-12 font-extrabold drop-shadow-2xl">
+                        Expert Landscaping,<br>Personalized for You
+                    </h2>
+                    <p
+                        class="text-sm sm:text-base md:text-base mt-4 sm:mt-6 max-w-lg drop-shadow-md font-bold tracking-wide sm:tracking-widest lg:text-lg text-gray-700">
+                        At Greenora, we create beautiful, functional outdoor spaces with care and expertise. From design
+                        to maintenance, our team delivers professional landscaping solutions tailored to your home,
+                        ensuring every garden looks its best year-round.
+                    </p>
+
+                    <button class="py-10">
+                        <a href=""
+                            class="group relative mt-10 inline-flex items-center justify-center px-10 py-4 bg-green-800 text-white rounded-full font-bold text-lg focus:bg-emerald-700 transition-all duration-300 shadow-xl overflow-hidden">
+                            <span
+                                class="inline-block transition-all duration-300 ease-in-out group-focus:-translate-y-full group-focus:opacity-0">
+                                Book our Services
+                            </span>
+
+                            <span
+                                class="absolute inset-0 flex items-center justify-center transition-all duration-300 ease-in-out translate-y-full opacity-0 group-focus:translate-y-0 group-focus:opacity-100">
+                                Book our Services
+                            </span>
+                        </a>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container m-auto py-8 sm:py-10 bg-white overflow-hidden mt-16 sm:mt-20 md:mt-24 mb-16 sm:mb-24 md:mb-32 max-w-7xl">
+            <div class="relative overflow-hidden">
+                <div class="absolute inset-y-0 left-0 w-12 sm:w-16 md:w-20 z-10 bg-gradient-to-r from-white to-transparent"></div>
+                <div class="absolute inset-y-0 right-0 w-12 sm:w-16 md:w-20 z-10 bg-gradient-to-l from-white to-transparent"></div>
+
+                <div class="animate-marquee flex gap-4 sm:gap-6">
+                    <div class="flex gap-6 sm:gap-8 md:gap-10 px-2 *:w-32 sm:*:w-40 md:*:w-48 *:h-40 sm:*:h-48 md:*:h-56 *:object-cover *:rounded-lg sm:*:rounded-xl md:*:rounded-2xl">
+                        <img src="src/assets/img/slid-img1" alt="Garden 1">
+                        <img src="src/assets/img/slid-img2" alt="Garden 2">
+                        <img src="src/assets/img/slid-img3" alt="Garden 3">
+                        <img src="src/assets/img/slid-img4" alt="Garden 4">
+                        <img src="src/assets/img/slid-img5" alt="Garden 5">
+                        <img src="src/assets/img/slid-img6" alt="Garden 6">
+                    </div>
+
+                    <div class="flex gap-6 sm:gap-8 md:gap-10 px-2 *:w-32 sm:*:w-40 md:*:w-48 *:h-40 sm:*:h-48 md:*:h-56 *:object-cover *:rounded-lg sm:*:rounded-xl md:*:rounded-2xl">
+                        <img src="src/assets/img/slid-img1" alt="Garden 1">
+                        <img src="src/assets/img/slid-img2" alt="Garden 2">
+                        <img src="src/assets/img/slid-img3" alt="Garden 3">
+                        <img src="src/assets/img/slid-img4" alt="Garden 4">
+                        <img src="src/assets/img/slid-img5" alt="Garden 5">
+                        <img src="src/assets/img/slid-img6" alt="Garden 6">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="flex flex-wrap gap-4 sm:gap-6 md:gap-10 justify-center text-white mb-16 sm:mb-24 md:mb-32 px-4 *:bg-[url(../src/assets/img/bgimgNumbers.png)] *:bg-green-950 *:bg-cover *:h-40 sm:*:h-44 md:*:h-48 *:w-[50%]  md:*:w-64 *:rounded-lg sm:*:rounded-xl md:*:rounded-2xl">
+            <div class="flex flex-col items-center gap-2 sm:gap-3">
+                <p class="text-3xl sm:text-4xl md:text-4xl font-bold font-sans mt-6 sm:mt-8 md:mt-10">8+</p>
+                <p class="text-sm sm:text-base md:text-lg">Years in the Industry</p>
+            </div>
+            <div class="flex flex-col items-center gap-2 sm:gap-3">
+                <p class="text-3xl sm:text-4xl md:text-4xl font-bold font-sans mt-6 sm:mt-8 md:mt-10">100%</p>
+                <p class="text-sm sm:text-base md:text-lg">Client Satisfaction</p>
+            </div>
+            <div class="flex flex-col items-center gap-2 sm:gap-3">
+                <p class="text-3xl sm:text-4xl md:text-4xl font-bold font-sans mt-6 sm:mt-8 md:mt-10">200+</p>
+                <p class="text-sm sm:text-base md:text-lg">Completed Projects</p>
+            </div>
+            <div class="flex flex-col items-center gap-2 sm:gap-3">
+                <p class="text-3xl sm:text-4xl md:text-4xl font-bold font-sans mt-6 sm:mt-8 md:mt-10">30+</p>
+                <p class="text-sm sm:text-base md:text-lg">Expert Landscapers</p>
+            </div>
+        </section>
+
+        <section class="bg-gray-200">
+            <div
+                class="relative z-10 mx-auto mt-12 sm:mt-16 md:mt-24 flex flex-col items-start justify-center h-[calc(100%-80px)] px-4 sm:px-6 md:px-10 max-w-7xl">
+
+                <div class="py-10 sm:py-14 md:py-20">
+                    <p id="services" class="text-sm sm:text-base font-bold">(services)</p>
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] leading-tight sm:leading-snug md:leading-12 font-extrabold drop-shadow-2xl">
+                        Landscaping Solutions <br> Tailored for You
+                    </h2>
+                </div>
+                <div class="mt-8 sm:mt-10 *:px-2 sm:*:px-3 *:py-2 *:mb-5 sm:*:mb-7 *:w-full sm:*:w-60 md:*:w-70 justify-center flex gap-8 sm:gap-12 md:gap-15 flex-wrap *:bg-amber-50">
+                    <div class="border-none outline-8 outline-amber-50 rounded-2xl overflow-hidden">
+                        <img class="rounded-2xl  object-contain" src="src/assets/img/Garden Design.jpg" alt="outdoor">
+                        <h3 class="text-xl font-bold  ml-3 mt-3 ">Garden Design</h3>
+                        <p class="text-lg font-bold  text-gray-600 ml-3 mt-3 ">
+                            Creating beautiful, functional layouts tailored to your style and space.</p>
+                        <div class="ml-2  pt-4 gap-5 flex flex-row items-center">
+                            <div class="  flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M12.5 6.25v6.25l4.167 2.083" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12.5 22.917c5.753 0 10.416-4.664 10.416-10.417S18.253 2.084 12.5 2.084 2.083 6.747 2.083 12.5 6.747 22.917 12.5 22.917Z" />
+                                </svg>
+                                <span>2 Days</span>
+
+                            </div>
+
+                            <span class="inline-block w-px h-2.5 bg-gray-500 "></span>
+
+                            <div class="flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4.01 8.98a4.167 4.167 0 0 1 4.98-4.97 4.167 4.167 0 0 1 7.02 0 4.167 4.167 0 0 1 4.98 4.98 4.166 4.166 0 0 1 0 7.02 4.167 4.167 0 0 1-4.969 4.98 4.166 4.166 0 0 1-7.031 0 4.166 4.166 0 0 1-4.98-4.97 4.167 4.167 0 0 1 0-7.04Z" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M16.666 8.334h-6.25a2.083 2.083 0 0 0 0 4.166h4.167a2.083 2.083 0 0 1 0 4.167h-6.25M12.5 18.75V6.25" />
+                                </svg>
+                                <span>100$</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="border-none outline-8 outline-amber-50 rounded-2xl overflow-hidden">
+                        <img class="rounded-2xl  object-contain" src="src/assets/img/Hardscaping.jpg" alt="outdoor">
+                        <h3 class="text-xl font-bold  ml-3 mt-3 ">Hardscaping</h3>
+                        <p class="text-lg font-bold  text-gray-600 ml-3 mt-3 ">Installing patios, pathways, retaining
+                            walls, and other structural elements.</p>
+                        <div class="ml-2  py-4  gap-5 flex flex-row items-center w-60 ">
+                            <div class="  flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M12.5 6.25v6.25l4.167 2.083" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12.5 22.917c5.753 0 10.416-4.664 10.416-10.417S18.253 2.084 12.5 2.084 2.083 6.747 2.083 12.5 6.747 22.917 12.5 22.917Z" />
+                                </svg>
+                                <span>4 Days</span>
+
+                            </div>
+
+                            <span class="inline-block w-px h-2.5 bg-gray-500 "></span>
+
+                            <div class="flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4.01 8.98a4.167 4.167 0 0 1 4.98-4.97 4.167 4.167 0 0 1 7.02 0 4.167 4.167 0 0 1 4.98 4.98 4.166 4.166 0 0 1 0 7.02 4.167 4.167 0 0 1-4.969 4.98 4.166 4.166 0 0 1-7.031 0 4.166 4.166 0 0 1-4.98-4.97 4.167 4.167 0 0 1 0-7.04Z" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M16.666 8.334h-6.25a2.083 2.083 0 0 0 0 4.166h4.167a2.083 2.083 0 0 1 0 4.167h-6.25M12.5 18.75V6.25" />
+                                </svg>
+                                <span>200$</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="border-none outline-8 outline-amber-50 rounded-2xl overflow-hidden">
+                        <img class="rounded-2xl  object-contain" src="src/assets/img/Planting & Softscaping.jpg"
+                            alt="outdoor">
+                        <h3 class="text-xl font-bold  ml-3 mt-3 ">Planting & Softscaping</h3>
+                        <p class="text-lg font-bold  text-gray-600 ml-3 mt-3 ">Selecting and planting trees, shrubs, and
+                            flowers to enhance your garden’s beauty.</p>
+                        <div class="ml-2  py-4  gap-5 flex flex-row items-center w-60 ">
+                            <div class="  flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M12.5 6.25v6.25l4.167 2.083" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12.5 22.917c5.753 0 10.416-4.664 10.416-10.417S18.253 2.084 12.5 2.084 2.083 6.747 2.083 12.5 6.747 22.917 12.5 22.917Z" />
+                                </svg>
+                                <span>6 Days</span>
+
+                            </div>
+
+                            <span class="inline-block w-px h-2.5 bg-gray-500 "></span>
+
+                            <div class="flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4.01 8.98a4.167 4.167 0 0 1 4.98-4.97 4.167 4.167 0 0 1 7.02 0 4.167 4.167 0 0 1 4.98 4.98 4.166 4.166 0 0 1 0 7.02 4.167 4.167 0 0 1-4.969 4.98 4.166 4.166 0 0 1-7.031 0 4.166 4.166 0 0 1-4.98-4.97 4.167 4.167 0 0 1 0-7.04Z" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M16.666 8.334h-6.25a2.083 2.083 0 0 0 0 4.166h4.167a2.083 2.083 0 0 1 0 4.167h-6.25M12.5 18.75V6.25" />
+                                </svg>
+                                <span>800$</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="border-none outline-8 outline-amber-50 rounded-2xl overflow-hidden">
+                        <img class="rounded-2xl  object-contain" src="src/assets/img/Lawn Care & Maintenance.jpg"
+                            alt="outdoor">
+                        <h3 class="text-xl font-bold  ml-3 mt-3 ">Lawn Care & Maintenance</h3>
+                        <p class="text-lg font-bold  text-gray-600 ml-3 mt-3 ">Regular upkeep to keep your lawns
+                            healthy, green, and perfectly trimmed.</p>
+                        <div class="ml-2  py-4  gap-5 flex flex-row items-center w-60 ">
+                            <div class="  flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M12.5 6.25v6.25l4.167 2.083" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12.5 22.917c5.753 0 10.416-4.664 10.416-10.417S18.253 2.084 12.5 2.084 2.083 6.747 2.083 12.5 6.747 22.917 12.5 22.917Z" />
+                                </svg>
+                                <span>5 Days</span>
+
+                            </div>
+
+                            <span class="inline-block w-px h-2.5 bg-gray-500 "></span>
+
+                            <div class="flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4.01 8.98a4.167 4.167 0 0 1 4.98-4.97 4.167 4.167 0 0 1 7.02 0 4.167 4.167 0 0 1 4.98 4.98 4.166 4.166 0 0 1 0 7.02 4.167 4.167 0 0 1-4.969 4.98 4.166 4.166 0 0 1-7.031 0 4.166 4.166 0 0 1-4.98-4.97 4.167 4.167 0 0 1 0-7.04Z" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M16.666 8.334h-6.25a2.083 2.083 0 0 0 0 4.166h4.167a2.083 2.083 0 0 1 0 4.167h-6.25M12.5 18.75V6.25" />
+                                </svg>
+                                <span>700$</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="border-none outline-8 outline-amber-50 rounded-2xl overflow-hidden">
+                        <img class="rounded-2xl  object-contain" src="src/assets/img/Irrigation & Drainage.jpg"
+                            alt="outdoor">
+                        <h3 class="text-xl font-bold  ml-3 mt-3 ">Irrigation & Drainage</h3>
+                        <p class="text-lg font-bold  text-gray-600 ml-3 mt-3 ">Efficient water management solutions to
+                            keep your garden thriving year-round.</p>
+                        <div class="ml-2  py-4  gap-5 flex flex-row items-center w-60 ">
+                            <div class="  flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M12.5 6.25v6.25l4.167 2.083" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12.5 22.917c5.753 0 10.416-4.664 10.416-10.417S18.253 2.084 12.5 2.084 2.083 6.747 2.083 12.5 6.747 22.917 12.5 22.917Z" />
+                                </svg>
+                                <span>2 Days</span>
+
+                            </div>
+
+                            <span class="inline-block w-px h-2.5 bg-gray-500 "></span>
+
+                            <div class="flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4.01 8.98a4.167 4.167 0 0 1 4.98-4.97 4.167 4.167 0 0 1 7.02 0 4.167 4.167 0 0 1 4.98 4.98 4.166 4.166 0 0 1 0 7.02 4.167 4.167 0 0 1-4.969 4.98 4.166 4.166 0 0 1-7.031 0 4.166 4.166 0 0 1-4.98-4.97 4.167 4.167 0 0 1 0-7.04Z" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M16.666 8.334h-6.25a2.083 2.083 0 0 0 0 4.166h4.167a2.083 2.083 0 0 1 0 4.167h-6.25M12.5 18.75V6.25" />
+                                </svg>
+                                <span>300$</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="border-none outline-8 outline-amber-50 rounded-2xl overflow-hidden">
+                        <img class="rounded-2xl  object-contain" src="src/assets/img/Outdoor Lighting.jpg"
+                            alt="outdoor">
+                        <h3 class="text-xl font-bold  ml-3 mt-3 ">Outdoor Lighting</h3>
+                        <p class="text-base  font-bold  text-gray-600 ml-3 mt-3 ">Designing and installing lighting to
+                            highlight your garden and improve safety.</p>
+                        <div class="ml-2   pt-6  gap-5 flex flex-row items-center w-60 ">
+                            <div class="  flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M12.5 6.25v6.25l4.167 2.083" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12.5 22.917c5.753 0 10.416-4.664 10.416-10.417S18.253 2.084 12.5 2.084 2.083 6.747 2.083 12.5 6.747 22.917 12.5 22.917Z" />
+                                </svg>
+                                <span>1 Days</span>
+
+                            </div>
+
+                            <span class="inline-block w-px h-2.5 bg-gray-500 "></span>
+
+                            <div class="flex flex-row items-center font-bold text-sm gap-1">
+                                <svg class="w-5 h-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4.01 8.98a4.167 4.167 0 0 1 4.98-4.97 4.167 4.167 0 0 1 7.02 0 4.167 4.167 0 0 1 4.98 4.98 4.166 4.166 0 0 1 0 7.02 4.167 4.167 0 0 1-4.969 4.98 4.166 4.166 0 0 1-7.031 0 4.166 4.166 0 0 1-4.98-4.97 4.167 4.167 0 0 1 0-7.04Z" />
+                                    <path stroke="#050505" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M16.666 8.334h-6.25a2.083 2.083 0 0 0 0 4.166h4.167a2.083 2.083 0 0 1 0 4.167h-6.25M12.5 18.75V6.25" />
+                                </svg>
+                                <span>100$</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <button class="py-10 mx-auto">
+                    <a href=""
+                        class="group relative mt-10 inline-flex items-center justify-center px-10 py-4 bg-green-800 text-white rounded-full font-bold text-lg focus:bg-emerald-700 transition-all duration-300 shadow-xl overflow-hidden">
+                        <span
+                            class="inline-block transition-all duration-300 ease-in-out group-focus:-translate-y-full group-focus:opacity-0">
+                            Book our Services
+                        </span>
+
+                        <span
+                            class="absolute inset-0 flex items-center justify-center transition-all duration-300 ease-in-out translate-y-full opacity-0 group-focus:translate-y-0 group-focus:opacity-100">
+                            Book our Services
+                        </span>
+                    </a>
+                </button>
+            </div>
+
+
+        </section>
+
+        <section class="w-full py-12 sm:py-14 md:py-16 items-center max-w-7xl mx-auto px-4">
+
+            <div
+                class="relative z-10 mx-auto font-bold mt-12 sm:mt-16 md:mt-24 flex flex-col items-start justify-center h-[calc(100%-80px)] px-0 sm:px-0 md:px-0">
+                <p id="works" class="text-sm sm:text-base">(works)</p>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] leading-tight sm:leading-snug md:leading-12 drop-shadow-2xl">
+                    A Look at Our <br> Completed Projects </h2>
+            </div>
+
+            <div class="w-full max-w-6xl mx-auto rounded-3xl mb-16 bg-gray-100 px-4 py-5">
+                <div class="flex flex-col mb-6 lg:flex-row items-center justify-between gap-6">
+                    <div class="mb-7 flex-1 min-w-0">
+                        <h3 class="text-xl font-semibold">Elegant Front Yard Upgrade</h3>
+                        <p class="text-gray-600 text-sm mt-1">
+                            Redesigned the front yard to improve curb appeal using structured hedges, <br> a new lawn,
+                            and stone edging. The result is a welcoming, polished entrance that complements the home’s
+                            architecture. </p>
+                    </div>
+
+                    <div
+                        class=" flex flex-row justify-center items-center gap-5 *:px-5 *:py-2 *:rounded-3xl mb-6 *:text-sm *:font-medium text-white *:bg-green-950 ">
+                        <p>Curb Appeal</p>
+                        <p>Planting</p>
+                    </div>
+                </div>
+                <div class="relative group w-full  overflow-hidden rounded-3xl">
+                    <div class="w-full h-full bg-gray-200 transition-transform duration-500 group-hover:scale-110">
+                        <img class="object-cover w-full" src="src/assets/img/works1" alt="">
+                    </div>
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500">
+                    </div>
+
+                    <button
+                        class="absolute inset-0 m-auto w-40  h-fit px-6 py-2 bg-green-800 text-white font-bold rounded-full opacity-0 group-hover:opacity-100 transition duration-200 cursor-pointer ">
+                        View Project
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="w-full max-w-6xl mx-auto rounded-3xl mb-16 bg-gray-100 px-5 py-5">
+                <div class="flex flex-col mb-6 lg:flex-row items-center justify-between ">
+                    <div class="mb-7">
+                        <h3 class="text-xl font-semibold">Modern Garden Retreat</h3>
+                        <p class="text-gray-600 text-sm mt-1">
+                            Transformed a neglected backyard into a calm, modern retreat <br> with layered planting, a
+                            stone patio, and subtle ambient lighting for evening use. <br> The design focuses on low
+                            maintenance and year-round appeal.</p>
+                    </div>
+
+                    <div
+                        class=" flex flex-row justify-center items-center gap-5 *:px-5 *:py-2 *:rounded-3xl mb-6 *:text-sm *:font-medium text-white *:bg-green-950">
+                        <p>Residential</p>
+                        <p>Outdoor Living</p>
+                    </div>
+                </div>
+                <div class="relative group w-full  overflow-hidden rounded-3xl">
+                    <div class="w-full h-full bg-gray-200 transition-transform duration-500 group-hover:scale-110">
+                        <img class="object-cover w-full" src="src/assets/img/works2" alt="">
+                    </div>
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500">
+                    </div>
+
+                    <button
+                        class="absolute inset-0 m-auto w-40  h-fit px-6 py-2 bg-green-800 text-white font-bold rounded-full opacity-0 group-hover:opacity-100 transition duration-200 cursor-pointer ">
+                        View Project
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="w-full max-w-6xl mx-auto rounded-3xl mb-16 bg-gray-100 px-5 py-5">
+                <div class="flex flex-col mb-6 lg:flex-row items-center justify-between ">
+                    <div class="mb-7">
+                        <h3 class="text-xl font-semibold">Sustainable Courtyard Garden</h3>
+                        <p class="text-gray-600 text-sm mt-1">
+                            Created an eco-friendly courtyard using native plants, drought-tolerant groundcover, <br>
+                            and a smart drip irrigation system — a lush,<br> water-wise design ideal for small urban
+                            spaces.</p>
+                    </div>
+
+                    <div
+                        class=" flex flex-row justify-center items-center gap-5 *:px-5 *:py-2 *:rounded-3xl mb-6 *:text-sm *:font-medium text-white *:bg-green-950">
+                        <p>Eco-Friendly</p>
+                        <p>Irrigation</p>
+                    </div>
+                </div>
+                <div class="relative group w-full  overflow-hidden rounded-3xl">
+                    <div class="w-full h-full bg-gray-200  transition-transform duration-500 group-hover:scale-110">
+                        <img class="object-cover w-full" src="src/assets/img/works3" alt="">
+                    </div>
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500">
+                    </div>
+
+                    <button
+                        class="absolute inset-0 m-auto w-40  h-fit px-6 py-2 bg-green-800 text-white font-bold rounded-full opacity-0 group-hover:opacity-100 transition duration-200 cursor-pointer ">
+                        View Project
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="max-w-full mx-auto px-4 mb-20 sm:mb-24 md:mb-30 py-12 sm:py-16 md:py-20 bg-gray-200">
+
+            <div class="flex mx-auto flex-col items-center max-w-3xl px-0">
+                <p id="testimonials" class="text-black text-base sm:text-lg md:text-lg font-bold">(Testimonials)</p>
+                <img class="w-24 sm:w-28 md:w-30 mt-3 sm:mt-4" src="src/assets/icons/five-star-rating-icon.svg" alt="">
+
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 sm:mt-4 md:mt-2 mb-8 sm:mb-12 md:mb-15 text-center">
+                    Hear from our happy customers
+                </h2>
+
+                <div class="flex gap-6 mb-10 flex-wrap justify-center">
+
+                    <div class="group flex flex-col items-center">
+                        <img src="src/assets/img/Paul" class="w-16 h-16 rounded-full object-cover grayscale opacity-50
+                  group-hover:scale-110 group-hover:grayscale-0 group-hover:opacity-100
+                  transition-all duration-300 cursor-pointer">
+
+                        <div class="hidden group-hover:block text-center mt-6 w-56 sm:w-64">
+                            <p class="text-gray-700 mb-2">
+                                “Amazing service and beautiful results!”
+                            </p>
+                            <h3 class="font-semibold">Paul</h3>
+                            <p class="text-gray-500 text-sm">London, UK</p>
+                        </div>
+                    </div>
+
+                    <div class="group flex flex-col items-center">
+                        <img src="src/assets/img/david" class="w-16 h-16 rounded-full object-cover grayscale opacity-50
+                  group-hover:scale-110 group-hover:grayscale-0 group-hover:opacity-100
+                  transition-all duration-300 cursor-pointer">
+
+                        <div class="hidden group-hover:block text-center mt-6 w-64">
+                            <p class="text-gray-700 mb-2">
+                                “They transformed my garden completely!”
+                            </p>
+                            <h3 class="font-semibold">david</h3>
+                            <p class="text-gray-500 text-sm">Toronto, Canada</p>
+                        </div>
+                    </div>
+
+                    <div class="group flex flex-col items-center">
+                        <img src="src/assets/img/Tyler" class="w-16 h-16 rounded-full object-cover grayscale opacity-50
+                  group-hover:scale-110 group-hover:grayscale-0 group-hover:opacity-100
+                  transition-all duration-300 cursor-pointer">
+
+                        <div class="hidden group-hover:block text-center mt-6 w-56 sm:w-64">
+                            <p class="text-gray-700 mb-2">
+                                “Professional, friendly and very creative.”
+                            </p>
+                            <h3 class="font-semibold">Tyler</h3>
+                            <p class="text-gray-500 text-sm">Sydney, Australia</p>
+                        </div>
+                    </div>
+
+                    <div class="group flex flex-col items-center">
+                        <img src="src/assets/img/james" class="w-16 h-16 rounded-full object-cover grayscale opacity-50
+                  group-hover:scale-110 group-hover:grayscale-0 group-hover:opacity-100
+                  transition-all duration-300 cursor-pointer">
+
+                        <div class="hidden group-hover:block text-center mt-6 w-56 sm:w-64">
+                            <p class="text-gray-700 mb-2">
+                                “Highly recommend their landscaping services.”
+                            </p>
+                            <h3 class="font-semibold">James</h3>
+                            <p class="text-gray-500 text-sm">New York, USA</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="container mx-auto px-4 sm:px-6 mb-14 flex flex-col md:flex-row md:items-center justify-center gap-10 max-w-7xl">
+
+            <div class="md:w-1/2">
+                <div class="*:text-black *:font-bold">
+                    <p id="contact" class="text-sm sm:text-base">(contact)</p>
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] mb-6 sm:mb-8 md:mb-10 drop-shadow-2xl leading-tight sm:leading-snug md:leading-12">
+                        Let’s Talk About <br> Your Project
+                    </h2>
+                </div>
+
+                <div class="flex flex-row items-center gap-5 mb-5">
+                    <div class="bg-gray-400 w-8 h-8 box-border rounded-xl">
+                        <img class="m-auto mt-1.5" src="src/assets/icons/gmail icon.svg" alt="mail">
+                    </div>
+                    <div class="font-bold">
+                        <h4>E-mail</h4>
+                        <a class="text-black text-sm hover:text-gray-500" target="_blank"
+                            href="mailto:hello@greenora.com">hello@greenora.com</a>
+                    </div>
+                </div>
+
+                <div class="flex flex-row items-center gap-5 mb-5">
+                    <div class="bg-gray-400 w-8 h-8 box-border rounded-xl">
+                        <img class="m-auto mt-1.5" src="src/assets/icons/call icon.svg" alt="call">
+                    </div>
+                    <div class="font-bold">
+                        <h4>Phone</h4>
+                        <a class="text-black text-sm hover:text-gray-500" href="tel:(555) 012-3456">(555) 012-3456</a>
+                    </div>
+                </div>
+
+                <div class="flex flex-row items-center gap-5">
+                    <div class="bg-gray-400 w-8 h-8 box-border rounded-xl">
+                        <img class="m-auto mt-1.5" src="src/assets/icons/location icon.svg" alt="location">
+                    </div>
+                    <div class="font-bold">
+                        <h4>Office</h4>
+                        <a class="text-black text-sm hover:text-gray-500" target="_blank"
+                            href="https://www.google.com/maps/search/?api=1&amp;query=1428+Willowbrook+Ln,+Portland,+OR">1428
+                            Willowbrook Ln, Portland, OR, USA</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 px-4 sm:px-6 md:px-8 py-8 rounded-2xl bg-gray-100">
+                <form class="flex flex-col gap-5 w-full *:flex *:flex-col">
+                    <div>
+                        <label class="font-semibold mb-2">Name</label>
+                        <input type="text" placeholder="Jane Smith" required
+                            class="bg-white border-2 border-green-700 rounded-md p-3 focus:outline-none focus:border-b-fuchsia-950">
+                    </div>
+                    <div>
+                        <label class="font-semibold mb-2">Email</label>
+                        <input type="email" required placeholder="jane@framer.com"
+                            class="bg-white border-2 border-green-700 rounded-md p-3 focus:outline-none focus:border-b-fuchsia-950">
+                    </div>
+                    <div>
+                        <label class="font-semibold mb-2">Phone</label>
+                        <input type="tel" placeholder="1 255 713 249" required
+                            class="bg-white border-2 border-green-700 rounded-md p-3 focus:outline-none focus:border-b-fuchsia-950">
+                    </div>
+                    <div>
+                        <label class="font-semibold mb-2">Massage</label>
+                        <textarea placeholder="your massage" required
+                            class="bg-white border-2 h-32 resize-none border-green-700 rounded-md p-3 focus:outline-none focus:border-b-fuchsia-950"></textarea>
+                    </div>
+                    <button type="submit" class=mt-10 m-auto bg-green-900 tracking-widest cursor-pointer text-white
+                        font-bold py-3 rounded-md hover:shadow-fuchsia-950/50 hover:shadow-lg transition">
+                        Send Massage
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIconOpen = document.getElementById('menu-icon-open');
+        const menuIconClose = document.getElementById('menu-icon-close');
+
+        if (menuToggle && mobileMenu && menuIconOpen && menuIconClose) {
+            menuToggle.addEventListener('click', () => {
+                const isOpen = !mobileMenu.classList.contains('hidden');
+
+                mobileMenu.classList.toggle('hidden');
+                menuToggle.setAttribute('aria-expanded', String(!isOpen));
+                menuToggle.setAttribute('aria-label', isOpen ? 'Open menu' : 'Close menu');
+                menuIconOpen.classList.toggle('hidden');
+                menuIconClose.classList.toggle('hidden');
+            });
+
+            mobileMenu.querySelectorAll('a').forEach((link) => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                    menuToggle.setAttribute('aria-label', 'Open menu');
+                    menuIconOpen.classList.remove('hidden');
+                    menuIconClose.classList.add('hidden');
+                });
+            });
+        }
+    </script>
+
+    <footer class="bg-green-950 text-white py-8 sm:py-10 md:py-10 px-4">
+
+        <div class="container mx-auto flex flex-col gap-8 sm:gap-10 md:flex-row md:justify-between px-2 md:px-4">
+
+            <div class="flex flex-col gap-3 sm:gap-4 max-w-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" sm:width="125" height="20" sm:height="26" fill="none">
+                    <path fill="#fff" fill-rule="evenodd"
+                        d="M18.438 1a5.172 5.172 0 0 1 5.074 4.104c.07.335.105.681.105 1.036V19.3c0 2.838-2.318 5.14-5.179 5.14H5.18a5.201 5.201 0 0 1-1.621-.258C1.492 23.507 0 21.576 0 19.3V6.14C0 3.301 2.319 1 5.18 1h13.258Zm-2.1 1.645h2.1a3.516 3.516 0 0 1 3.459 2.832 6.57 6.57 0 0 1-3.34-.504c-1.066-.454-1.773-1.294-2.22-2.328Zm-4.918 0h3.148c.523 1.562 1.525 3.07 3.336 3.84a8.203 8.203 0 0 0 4.056.64v1.682c-1.66.52-3.313.732-4.636.348-.657-.191-1.41-.698-2.222-1.495-.8-.787-1.6-1.798-2.353-2.904a35.74 35.74 0 0 1-1.33-2.111Zm-1.904 0H7.323c.1 1.861-.342 4.135-1.985 6.438-1.09 1.526-2.377 2.365-3.68 2.74v3.279c.785-.473 1.71-1.12 2.792-1.992 2.557-2.063 4.571-2.883 6.099-3.034 1.519-.149 2.598.374 3.074 1.035.499.694.781 1.623.887 2.603a9.776 9.776 0 0 1-.21 3.198c-.501 2.183-1.774 4.456-4.066 5.681l-.378.201h2.576c1.007-1.269 1.814-2.53 2.103-3.519.326-1.115.46-2.298.585-3.404.046-.398.09-.785.14-1.156.09-.642.212-1.323.475-1.813.14-.26.361-.55.718-.716.375-.176.765-.154 1.108-.041.96.318 2.236.383 4.4-.154v-1.468c-1.669.467-3.488.68-5.102.21-1.042-.302-2.03-1.027-2.923-1.904-.904-.888-1.77-1.993-2.56-3.15a39.176 39.176 0 0 1-1.86-3.034ZM21.96 13.682c-2.06.468-3.543.449-4.796.064-.093.215-.179.597-.261 1.193-.041.296-.08.633-.12.996-.129 1.135-.287 2.534-.657 3.799-.283.97-.896 2.034-1.625 3.06h1.667c.308-.759.591-1.482.814-2.09.239-.652.388-1.122.437-1.36.09-.454.265-.943.674-1.289.425-.36.947-.437 1.436-.413.482.025 1.047.154 1.684.335.231.066.48.14.747.224v-4.519Zm-.054 6.23c-.432-.14-.813-.258-1.15-.354-.616-.175-1.029-.259-1.31-.273-.183-.01-.257.013-.278.023-.012.014-.071.093-.124.358-.076.378-.27.958-.505 1.6-.169.462-.37.982-.587 1.528h.486a3.516 3.516 0 0 0 3.468-2.882ZM6.28 22.794c1.085-.555 2.18-1.121 3.168-1.649 1.747-.934 2.805-2.721 3.236-4.599a8.154 8.154 0 0 0 .178-2.656c-.088-.812-.31-1.437-.588-1.823-.042-.059-.465-.461-1.562-.354-1.088.107-2.803.726-5.217 2.673-1.512 1.219-2.777 2.054-3.838 2.606v1.855c.262-.238.557-.436.83-.605.278-.173.581-.342.879-.508l.074-.041c.278-.155.554-.308.828-.471.6-.357 1.139-.73 1.553-1.162.718-.75 1.754-1.645 2.729-2.256.48-.302 1-.569 1.489-.691.46-.115 1.172-.162 1.668.402.473.536.669 1.34.325 2.383-.327.991-1.148 2.243-2.735 3.87-1.648 1.69-3.295 2.536-4.684 2.806a5.99 5.99 0 0 1-.461.07c.325.098.67.15 1.027.15h1.1ZM1.657 10.082c.803-.33 1.603-.934 2.328-1.95 1.431-2.005 1.777-3.95 1.679-5.487h-.485c-1.945 0-3.522 1.565-3.522 3.495v3.942Zm17.51 9.226a.023.023 0 0 0-.006.003h.002l.001-.002h.002Zm-9.732-4.114c-.834.523-1.767 1.324-2.412 1.999-.57.594-1.26 1.057-1.903 1.44-.296.175-.593.34-.867.493l-.076.043c-.302.167-.572.319-.811.468-.518.32-.734.536-.802.674a.136.136 0 0 0-.016.097c.009.05.045.163.187.35l.013.02.013.018c0 .001.02.027.079.063.061.037.156.079.29.112.271.066.665.085 1.165-.012.994-.193 2.35-.837 3.81-2.335 1.521-1.56 2.14-2.596 2.351-3.237.127-.383.1-.59.06-.695l-.072.016c-.24.06-.585.22-1.009.486Zm1.17-.51h-.013.013Z"
+                        clip-rule="evenodd" />
+                    <path fill="#fff"
+                        d="M38.866 21.33c-1.144 0-2.207-.205-3.19-.616a7.982 7.982 0 0 1-2.552-1.716 7.86 7.86 0 0 1-1.716-2.596c-.41-1.012-.616-2.12-.616-3.322 0-1.173.198-2.251.594-3.234a8.185 8.185 0 0 1 1.65-2.618 7.57 7.57 0 0 1 2.53-1.738c.968-.41 2.024-.616 3.168-.616 1.364 0 2.567.257 3.608.77a7.45 7.45 0 0 1 2.64 2.046 8.34 8.34 0 0 1 1.54 2.948h-2.816a4.88 4.88 0 0 0-.968-1.826 4.505 4.505 0 0 0-1.694-1.276c-.675-.323-1.467-.484-2.376-.484-1.041 0-1.973.25-2.794.748-.807.499-1.437 1.203-1.892 2.112-.455.895-.682 1.965-.682 3.212 0 1.159.227 2.2.682 3.124a5.42 5.42 0 0 0 1.936 2.2c.85.543 1.863.814 3.036.814.968 0 1.811-.183 2.53-.55a4.762 4.762 0 0 0 1.782-1.584c.455-.69.755-1.481.902-2.376h-5.456v-1.936h8.008c.03 1.261-.14 2.413-.506 3.454a7.895 7.895 0 0 1-1.584 2.706 6.937 6.937 0 0 1-2.508 1.76c-.968.396-2.053.594-3.256.594Zm12.207-6.292V21h-2.222V9.34h2.068v2.464a4.587 4.587 0 0 1 1.826-1.914 5.276 5.276 0 0 1 2.662-.704v2.31c-.836-.044-1.584.051-2.244.286a3.147 3.147 0 0 0-1.54 1.166c-.366.528-.55 1.225-.55 2.09ZM61.7 21.22c-1.13 0-2.12-.25-2.97-.748-.836-.513-1.489-1.232-1.958-2.156-.47-.924-.704-1.995-.704-3.212 0-1.159.242-2.185.726-3.08a5.493 5.493 0 0 1 1.98-2.112c.836-.528 1.79-.792 2.86-.792.88 0 1.664.169 2.354.506a4.852 4.852 0 0 1 1.782 1.386 5.352 5.352 0 0 1 1.078 2.09c.22.792.278 1.665.176 2.618h-9.658v-1.474h7.304c-.044-1.085-.345-1.929-.902-2.53-.543-.616-1.269-.924-2.178-.924-.66 0-1.24.176-1.738.528-.484.337-.866.829-1.144 1.474-.264.63-.396 1.4-.396 2.31 0 .91.132 1.694.396 2.354.264.645.645 1.144 1.144 1.496.498.352 1.1.528 1.804.528.836 0 1.525-.213 2.068-.638.557-.425.924-1.02 1.1-1.782h2.2c-.279 1.29-.895 2.31-1.848 3.058-.939.733-2.098 1.1-3.476 1.1Zm12.047 0c-1.129 0-2.119-.25-2.97-.748-.836-.513-1.488-1.232-1.958-2.156-.469-.924-.704-1.995-.704-3.212 0-1.159.242-2.185.726-3.08a5.493 5.493 0 0 1 1.98-2.112c.836-.528 1.79-.792 2.86-.792.88 0 1.665.169 2.354.506a4.852 4.852 0 0 1 1.782 1.386 5.352 5.352 0 0 1 1.078 2.09c.22.792.279 1.665.176 2.618h-9.658v-1.474h7.304c-.044-1.085-.344-1.929-.902-2.53-.542-.616-1.268-.924-2.178-.924-.66 0-1.239.176-1.738.528-.484.337-.865.829-1.144 1.474-.264.63-.396 1.4-.396 2.31 0 .91.132 1.694.396 2.354.264.645.646 1.144 1.144 1.496.499.352 1.1.528 1.804.528.836 0 1.526-.213 2.068-.638.558-.425.924-1.02 1.1-1.782h2.2c-.278 1.29-.894 2.31-1.848 3.058-.938.733-2.097 1.1-3.476 1.1Zm9.689-6.798V21h-2.222V9.34h2.068v1.936a4.752 4.752 0 0 1 1.54-1.562c.645-.396 1.371-.594 2.178-.594 1.202 0 2.163.374 2.882 1.122.733.748 1.1 1.819 1.1 3.212V21H88.76v-6.798c0-.997-.213-1.767-.638-2.31-.426-.543-1.056-.814-1.892-.814-.514 0-.983.14-1.408.418-.426.264-.763.645-1.012 1.144-.25.499-.374 1.093-.374 1.782Zm15.16 6.798a5.89 5.89 0 0 1-2.287-.44 5.605 5.605 0 0 1-1.805-1.276 6.26 6.26 0 0 1-1.21-1.936 6.696 6.696 0 0 1-.418-2.398c0-.865.14-1.665.418-2.398a5.991 5.991 0 0 1 1.21-1.914 5.191 5.191 0 0 1 1.805-1.276 5.645 5.645 0 0 1 2.287-.462c.837 0 1.599.154 2.288.462a4.929 4.929 0 0 1 1.804 1.276c.514.543.91 1.18 1.188 1.914.294.733.44 1.533.44 2.398 0 .865-.146 1.665-.44 2.398a5.92 5.92 0 0 1-1.188 1.936c-.498.543-1.1.968-1.804 1.276-.689.293-1.451.44-2.287.44Zm0-1.958c.646 0 1.225-.161 1.738-.484.528-.337.939-.814 1.232-1.43.308-.616.462-1.342.462-2.178 0-.85-.154-1.577-.462-2.178-.293-.616-.704-1.085-1.232-1.408a3.194 3.194 0 0 0-1.737-.484c-.631 0-1.21.161-1.739.484-.513.323-.924.792-1.231 1.408-.294.601-.44 1.327-.44 2.178 0 .836.146 1.562.44 2.178.307.616.718 1.093 1.231 1.43a3.27 3.27 0 0 0 1.739.484Zm9.988-4.224V21h-2.222V9.34h2.068v2.464a4.582 4.582 0 0 1 1.826-1.914 5.273 5.273 0 0 1 2.662-.704v2.31c-.836-.044-1.584.051-2.244.286a3.143 3.143 0 0 0-1.54 1.166c-.367.528-.55 1.225-.55 2.09ZM121.517 21v-1.804a3.86 3.86 0 0 1-1.496 1.496c-.631.352-1.379.528-2.244.528-1.203 0-2.171-.315-2.904-.946-.733-.645-1.1-1.503-1.1-2.574 0-1.144.447-2.01 1.342-2.596.909-.587 2.229-.88 3.96-.88a15.5 15.5 0 0 1 2.178.132v-.858c0-.821-.213-1.46-.638-1.914-.425-.47-1.027-.704-1.804-.704-.807 0-1.452.235-1.936.704-.469.455-.719 1.085-.748 1.892h-2.024c.029-.88.242-1.643.638-2.288a4.116 4.116 0 0 1 1.65-1.518c.704-.367 1.511-.55 2.42-.55 1.437 0 2.552.389 3.344 1.166.807.763 1.21 1.84 1.21 3.234V21h-1.848Zm-5.632-3.366c0 .601.213 1.085.638 1.452.425.367.99.55 1.694.55.939 0 1.679-.264 2.222-.792.543-.543.814-1.261.814-2.156v-.946a19.791 19.791 0 0 0-1.122-.088 9.994 9.994 0 0 0-.924-.044c-1.115 0-1.951.169-2.508.506-.543.323-.814.829-.814 1.518Z" />
+                </svg>
+
+                <h2 class="text-lg sm:text-xl md:text-2xl font-bold">Crafting beautiful outdoor spaces <br> with care and expertise.</h2>
+
+                <div class="flex flex-col items-center md:items-start">
+                    <button>
+                        <a href="#"
+                            class="group relative mt-6 sm:mt-8 md:mt-10 inline-flex items-center justify-center px-6 sm:px-8 md:px-10 py-2.5 sm:py-3 md:py-4 bg-green-800 text-white rounded-full font-bold text-sm sm:text-base md:text-lg hover:bg-emerald-700 transition-all duration-300 overflow-hidden">
+                            <span
+                                class="inline-block transition-all duration-300 ease-in-out group-hover:-translate-y-full group-hover:opacity-0">
+                                Work with us
+                            </span>
+
+                            <span
+                                class="absolute inset-0 flex items-center justify-center transition-all duration-300 ease-in-out translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                                Work with us
+                            </span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex justify-center md:justify-between gap-12 sm:gap-16 md:gap-10 px-0 sm:px-4 md:px-5">
+
+                <div class="flex flex-col gap-2 md:gap-3">
+                    <a href="#about" class="text-sm md:text-base hover:text-gray-300 transition">About</a>
+                    <a href="#services" class="text-sm md:text-base hover:text-gray-300 transition">Services</a>
+                    <a href="#works" class="text-sm md:text-base hover:text-gray-300 transition">Project</a>
+                </div>
+
+                <div class="flex flex-col gap-2 md:gap-3">
+                    <a href="#testimonials" class="text-sm md:text-base hover:text-gray-300 transition">Testimonials</a>
+                    <a href="#contact" class="text-sm md:text-base hover:text-gray-300 transition">Contact</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div
+            class="flex flex-col items-center justify-center gap-3  border-t  border-gray-400 mt-10 pt-6 text-center text-sm text-gray-200">
+            <p> © 2025 Greenora. All rights reserved.</p>
+            <p class="font-bold text-base tracking-widest">Made by <span class="text-xl text-amber-600 ">Zahra
+                    Zali</span> <br> idea from <a
+                    class="transition-all focus:text-amber-600 focus:decoration-amber-50  underline underline-offset-7 decoration-amber-800 "
+                    href="https://greenora.framer.website/">greenora.framer.website</a> </p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
